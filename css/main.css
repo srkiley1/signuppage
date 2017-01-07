@@ -1,0 +1,71 @@
+
+* {
+	box-sizing:border-box;
+}
+body {
+	background-color: lightblue;
+	margin: 0;
+	padding: 30px;
+}
+header {
+	margin-right: 0;
+}
+.image{
+    display: block;
+    height: 35px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+main {
+	text-align: center;
+	margin-right: auto;
+	margin-right: auto;
+}
+fieldset {
+	margin-right: auto;
+	margin-left: auto;
+}
+form {
+	
+	display: inline-block;
+	background-color: white;
+	height: 380px;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+.email {
+	text-align: left;
+}
+input {
+	display: block;
+	width: 320px;
+	height: 55px;
+}
+input,label,button {
+	font-size: 18px;
+}
+button {
+	 background-color: green;
+	 width: 320px;
+	 height: 55px;
+	 margin-top: 15px;
+	 display: block;
+}
+button:hover {
+	background-color: lightgreen;
+}
+button a {
+	color: white;
+	text-decoration: none;
+}
+.have-account{
+	color: white;
+	display: inline-block;
+	text-align: center;
+	width: 1100px;
+}

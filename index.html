@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset=UTF-8></meta>
-	<meta name="Sign Up Page for AnalogSea. Includes a logo and an input form.</meta>
+	<meta charset="UTF-8">
+	<meta name="Sign Up Page for AnalogSea. Includes a logo input forms and buttons with hover effects.">
 	<title> Sign up Page </title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
 </head>
 <body>
 	<header>
-		<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png"></img>
+		<img class="image" src="images/logoanalogsea.png" alt="Analog Sea logo">
 	</header>
 	<main>
 		<form action="/signup/" method="post">
@@ -23,11 +23,12 @@
 				<input type="text" name="password" id="Password" placeholder="1234password" required/>
 			
 			<button>Sign up</button>
-			<a href="/forgot-password/new"</a>
+			<a href="/forgot-password/new">Forgot password?</a>
 			</fieldset>
 		
 		</form>
-	<p>Already have an account?</p><a href="/login">Log in</a>
 	</main>
+	<footer class="have-account">Already have an account?</p><a href="/login">Log in</a>
+</footer>
 </body>
 </html>
