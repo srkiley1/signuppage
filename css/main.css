@@ -23,7 +23,7 @@ header {
 main {
 	text-align: center;
 }
-form {	
+form {
 	display: inline-block;
 	background-color: white;
 	height: 380px;
@@ -39,21 +39,25 @@ fieldset {
 	border:0;
 	text-align: left;
 }
+
+/*Fix!*/
 h1 {
 	text-align: center;
 }
-input {
-	display: block;
+
+input, button {
 	width: 320px;
 	height: 55px;
+}
+
+input {
+	display: block;
 	text-align: left;
 	font-size: 14px;
 	text-align: left;
 }
 button {
 	 background-color: #15CD72;
-	 width: 320px;
-	 height: 55px;
 	 margin: 20px auto;
 	 display: block;
 	 color:white;
@@ -62,10 +66,11 @@ button {
 	 margin-top: 12px;
 	 padding: 15px;
 	 border: 2px solid white;
-}  
+}
 button:hover {
 	background-color: #0CB863;
 }
+
 .forgot {
 	text-decoration: none;
 	color: black;
@@ -75,7 +80,7 @@ button:hover {
 }
 .have-account{
 	color: white;
-	text-align: center;	
+	text-align: center;
 }
 .login {
 	text-decoration: none;
