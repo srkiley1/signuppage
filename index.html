@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="Sign Up Page for Analog Sea. Includes a logo input forms and buttons with hover effects.">
+	<meta name="Sign Up Page for Analog Sea. Includes a logo, input forms and buttons with hover effects.">
 	<title> Sign up Page </title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">	
 </head>
@@ -12,22 +12,24 @@
 	</header>
 	<main>
 		<form action="/signup/" method="post">
-			<fieldset name="signup">
+			<legend>
+				<fieldset name="signup">
 			
 				<h1>Sign up</h1>
 			
-				<label class="email" for="email" >Email</label>
-				<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
-				<label class="password" for="password">Password</label>
-				<input type="text" name="password" id="password" placeholder="1234password" required/>
-			
-			<button>Sign up</button>
-			<a href="/forgot-password/new" class="forgot">Forgot password?</a>
-			</fieldset>
-		
+					<label class="email" for="email" >Email</label>
+					<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
+					<label class="password" for="password">Password</label>
+					<input type="text" name="password" id="password" placeholder="1234password" required/>
+				</fieldset>
+			</legend>
+				<button>Sign up</button>
+				<a href="/forgot-password/new" class="forgot">Forgot password?</a>
+
 		</form>
 	</main>
-	<footer class="have-account">Already have an account?  <a href="/login" class="login">Log in</a>
-</footer>
+	
+			<footer class="have-account">Already have an account?  <a href="/login" class="login">Log in</a>
+			</footer>
 </body>
 </html>

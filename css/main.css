@@ -22,13 +22,6 @@ header {
 }
 main {
 	text-align: center;
-	margin-right: auto;
-	margin-right: auto;
-}
-fieldset {
-	margin-right: auto;
-	margin-left: auto;
-	outline: none;
 }
 form {	
 	display: inline-block;
@@ -40,6 +33,15 @@ form {
 	margin-right: auto;
 	margin-left: auto;
 }
+fieldset {
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;
+	text-align: left;
+}
+h1 {
+	text-align: center;
+}
 input {
 	display: block;
 	width: 320px;
@@ -48,33 +50,31 @@ input {
 	font-size: 14px;
 	text-align: left;
 }
-#email {
-	text-align: left;
-}
 button {
 	 background-color: #15CD72;
-	 width: 320px;
+	 width: 352px;
 	 height: 55px;
-	 margin-top: 15px;
+	 margin: 20 px auto;
 	 display: block;
 	 color:white;
 	 font-weight: bold;
-	 font-size: 21px;
-}
+	 font-size: 18px;
+}  
 button:hover {
 	background-color: #0CB863;
-}
-.have-account{
-	color: white;
-	text-align: center;	
 }
 .forgot {
 	text-decoration: none;
 	color: black;
 	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.have-account{
+	color: white;
+	text-align: center;	
 }
 .login {
 	text-decoration: none;
 	color: white;
 	display: inline-block;
-}
