@@ -3,9 +3,11 @@
 	box-sizing:border-box;
 }
 body {
-	background-color: lightblue;
+	background-color: #298eea;
 	margin: 0;
 	padding: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 header {
 	margin-right: 0;
@@ -16,6 +18,7 @@ header {
 	width: auto;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 20px;
 }
 main {
 	text-align: center;
@@ -25,47 +28,53 @@ main {
 fieldset {
 	margin-right: auto;
 	margin-left: auto;
+	outline: none;
 }
-form {
-	
+form {	
 	display: inline-block;
 	background-color: white;
 	height: 380px;
-	text-align: center;
 	padding-left: 40px;
 	padding-right: 40px;
 	border: none;
 	margin-right: auto;
 	margin-left: auto;
 }
-.email {
-	text-align: left;
-}
 input {
 	display: block;
 	width: 320px;
 	height: 55px;
+	text-align: left;
+	font-size: 14px;
+	text-align: left;
 }
-input,label,button {
-	font-size: 18px;
+#email {
+	text-align: left;
 }
 button {
-	 background-color: green;
+	 background-color: #15CD72;
 	 width: 320px;
 	 height: 55px;
 	 margin-top: 15px;
 	 display: block;
+	 color:white;
+	 font-weight: bold;
+	 font-size: 21px;
 }
 button:hover {
-	background-color: lightgreen;
-}
-button a {
-	color: white;
-	text-decoration: none;
+	background-color: #0CB863;
 }
 .have-account{
 	color: white;
+	text-align: center;	
+}
+.forgot {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.login {
+	text-decoration: none;
+	color: white;
 	display: inline-block;
-	text-align: center;
-	width: 1100px;
 }

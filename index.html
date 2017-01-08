@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="Sign Up Page for AnalogSea. Includes a logo input forms and buttons with hover effects.">
+	<meta name="Sign Up Page for Analog Sea. Includes a logo input forms and buttons with hover effects.">
 	<title> Sign up Page </title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">	
 </head>
@@ -16,19 +16,18 @@
 			
 				<h1>Sign up</h1>
 			
-				<label for="Email" required>Email</label>
+				<label class="email" for="email" >Email</label>
 				<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
-
-				<label for="Password" required>Password</label>
-				<input type="text" name="password" id="Password" placeholder="1234password" required/>
+				<label class="password" for="password">Password</label>
+				<input type="text" name="password" id="password" placeholder="1234password" required/>
 			
 			<button>Sign up</button>
-			<a href="/forgot-password/new">Forgot password?</a>
+			<a href="/forgot-password/new" class="forgot">Forgot password?</a>
 			</fieldset>
 		
 		</form>
 	</main>
-	<footer class="have-account">Already have an account?</p><a href="/login">Log in</a>
+	<footer class="have-account">Already have an account?  <a href="/login" class="login">Log in</a>
 </footer>
 </body>
 </html>
