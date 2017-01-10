@@ -26,63 +26,60 @@ main {
 form {
 	display: inline-block;
 	background-color: white;
-	height: 380px;
-	padding-left: 40px;
-	padding-right: 40px;
-	border: none;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 40px;
 }
 fieldset {
-	margin-right: auto;
-	margin-left: auto;
 	border:0;
 	text-align: left;
 }
-
 /*Fix!*/
-h1 {
+legend {
 	text-align: center;
+   	font-size: 35px;
+   	margin: 35px;
 }
-
 input, button {
 	width: 320px;
 	height: 55px;
 }
-
 input {
 	display: block;
 	text-align: left;
 	font-size: 14px;
-	text-align: left;
+	margin-top: 20px;
+	padding: 15px;
+	border: 2px solid darkgray;
+	border-radius: 5%;
 }
 button {
 	 background-color: #15CD72;
-	 margin: 20px auto;
 	 display: block;
 	 color:white;
 	 font-weight: bold;
 	 font-size: 18px;
-	 margin-top: 12px;
+	 margin-top: 20px;
 	 padding: 15px;
 	 border: 2px solid white;
+	 border-radius: 5%;
 }
 button:hover {
 	background-color: #0CB863;
 }
-
 .forgot {
-	text-decoration: none;
-	color: black;
+	color: darkgray;
 	font-size: 14px;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: center;
+	display: block;
 }
 .have-account{
 	color: white;
 	text-align: center;
+	font-size: 16px;
 }
 .login {
-	text-decoration: none;
 	color: white;
 	display: inline-block;
