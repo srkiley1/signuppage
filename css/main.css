@@ -15,75 +15,68 @@ header {
 .image{
     display: block;
     height: 35px;
-	width: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
+		width: auto;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
 }
 main {
 	text-align: center;
 }
 form {
-	display: inline-block;
 	background-color: white;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: none;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 40px;
 }
 fieldset {
+	margin:0;
+	padding:0;
 	border:0;
 	text-align: left;
 }
-/*Fix!*/
+
 legend {
 	text-align: center;
-   	font-size: 35px;
-   	margin: 35px;
+	font-size: 20px;
 }
+
 input, button {
+	display: block;
 	width: 320px;
 	height: 55px;
-	display: block;
-	margin-top: 20px;
-	padding: 15px;
-	border-radius: 5%;
+	font-size: 18px;
+	border: 2px solid #e7e7e7
 }
-input {
 
-	text-align: left;
-	font-size: 14px;
-	margin-bottom: 20px;
-	border: 2px solid darkgray;
-	border-radius: 5%;
-}
 button {
-	 background-color: #15CD72;
-	 color:white;
-	 font-weight: bold;
-	 font-size: 18px;
-	 border: 2px solid white;
+	background-color: #15CD72;
+	color:white;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 15px;
+	border: 0;
+	margin: 20px auto;
 }
 button:hover {
 	background-color: #0CB863;
 }
+
 .forgot {
-	color: darkgray;
+	text-decoration: none;
+	color: black;
 	font-size: 14px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 12px;
-	text-align: center;
-	display: block;
-}
-.have-account,.login {
-	color: white;
-	font-size: 14px;
-	margin-top: 10px;	
 }
 .have-account{
+	color: white;
 	text-align: center;
 }
 .login {
+	text-decoration: none;
+	color: white;
 	display: inline-block;
-
-
