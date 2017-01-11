@@ -6,9 +6,9 @@ body {
 	background-color: #298eea;
 	margin: 0;
 	padding: 30px;
-    font-family: "Roboto", sans-serif;
-		font-weight: 300;
-    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+	font-weight: 300;
+  font-size: 18px;
 }
 header {
 	margin-right: 0;
@@ -42,6 +42,9 @@ fieldset {
 legend {
 	text-align: center;
 	font-size: 35px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 45px;
 }
 
 input, button {
@@ -51,6 +54,11 @@ input, button {
 	font-size: 18px;
 	border: 2px solid #e7e7e7
 }
+input {
+	margin-top:  15px;
+	margin-bottom: 15px;
+	padding: 20px;
+}
 
 button {
 	background-color: #15CD72;
@@ -59,24 +67,31 @@ button {
 	font-weight: bold;
 	padding: 15px;
 	border: 0;
-	margin: 20px auto;
+	margin: 20px auto 5px;
 }
 button:hover {
 	background-color: #0CB863;
 }
 
 .forgot {
-	text-decoration: none;
-	color: black;
+	color:#999;
 	font-size: 14px;
+	font-weight: 400;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom:20px;
 }
 .have-account{
 	color: white;
 	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 9px;
 }
 .login {
-	text-decoration: none;
 	color: white;
 	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 15px;
+}
